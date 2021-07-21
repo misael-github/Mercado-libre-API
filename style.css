@@ -74,7 +74,7 @@ body {
 .result-item-title {
   margin: 0;
   font-weight: 700;
-  padding: 16px 0;
+  /* padding: 16px 0; */
 }
 .result-item-content {
   flex-grow: 1;
