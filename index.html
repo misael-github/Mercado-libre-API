@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script async src="index.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-content">
+            <form action="" class="search-form">
+                <input type="text" class="search-input" name="buscar" placeholder="Buscar productos, marcas y mas...">
+                <button class="search-button">Buscar</button>
+            </form>
+        </div>
+    </header>
+    <div class="content">
+        <!-- <h3 class="results">Resultados: <span class="results-count"></span></h3> -->
+    <div class="results"></div>
+</div>
+<template id="result-item-template">
+    <div class="result-item">
+        <div class="result-div-img">
+         <img src="" alt="" class="result-item-img">
+        </div>
+         <div class="result-item-content">
+          <h4 class="result-item-title">Titulo</h4>
+          <p class="result-item-condition">Nuevo</p>
+          <p class="result-item-sell-count">
+              <span class="result-item-sell-count-num"></span>
+          </p>
+         </div>
+         <div class="result-item-price">
+          <span></span>
+         </div>
+        </div>
+</template>
+</body>
+</html>
