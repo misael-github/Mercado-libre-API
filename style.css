@@ -107,6 +107,7 @@ body {
 .result-item-condition {
   margin-top: 4px;
   display: inline;
+  margin-left: 5px;
 }
 
 @media (max-width: 596px) {
